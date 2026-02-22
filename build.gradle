@@ -32,7 +32,7 @@ repositories {
     }
     maven {
         name 'thermos'
-        url 'https://github.com/XINBOSHIN/maven/tree/master/ThermosLibs'
+        url 'https://github.com/XINBOSHIN/maven/raw/master/ThermosLibs'
     }
     maven {
         name 'forge'
