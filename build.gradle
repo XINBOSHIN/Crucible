@@ -4,7 +4,7 @@ buildscript {
         //mavenLocal() // for testing plugin pre release
         maven {
             name = "juanmuscaria"
-            url = "https://github.com/juanmuscaria/maven/raw/master"
+            url = "https://github.com/XINBOSHIN/maven/raw/master/"
         }
         maven {
             name 'forge'
@@ -28,7 +28,7 @@ apply plugin: 'maven-publish'
 repositories {
     maven {
         name = "juanmuscaria"
-        url = "https://github.com/juanmuscaria/maven/raw/master"
+        url = "https://github.com/XINBOSHIN/maven/raw/master/"
     }
     maven {
         name 'thermos'
@@ -57,8 +57,8 @@ minecraft {
 
     // Repos used on the generated subprojects
     repos = [
-            'https://github.com/juanmuscaria/maven/raw/master/ThermosLibs',
-            'https://github.com/juanmuscaria/maven/raw/master',
+            'https://github.com/XINBOSHIN/maven/raw/master/ThermosLibs',
+            'https://github.com/XINBOSHIN/maven/raw/master/',
             'https://maven.minecraftforge.net/',
             'https://oss.sonatype.org/content/repositories/snapshots/',
             'https://nexus.gtnewhorizons.com/repository/public/',
